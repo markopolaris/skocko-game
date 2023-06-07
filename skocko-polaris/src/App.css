@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5EB1E6;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.game-frame {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+.game-frame .guesses {
+    width: 300px;
+    height: 500px;
+}
+
+.game-frame .guesses .guess {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.game-frame .guesses .guess .field {
+    border: 1px solid gray;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.hints {
+    width: 300px;
+    height: 500px;
+}
+
+.hints .hint-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.hints .hint-row .hint-symbol {
+    width: 60px;
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.hints .hint-row .red {
+    background-color: red;
+}
+
+.hints .hint-row .yellow {
+    background-color: yellow;
+}
+
+.hints .hint-row .white {
+    background-color: white;
+}
+
+
+.secret {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+
+
+.secret .field {
+    height: 60px;
+    width: 60px;
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+}
+
+.symbols {
+    width: 500px;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.symbols .symbol {
+    width: 60px;
+    height: 60px;
+    border: 1px solid gray;
+    font-size: 40px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#delete {
+    height: 50px;
+    margin-top: 5px;
+    width: 100px;
+    color: #1B86E0;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#confirm {
+    height: 50px;
+    margin-top: 5px;
+    width: 150px;
+    color: #1B86E0;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.buttons {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}

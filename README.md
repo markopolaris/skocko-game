@@ -1,1 +1,0 @@
-# skocko-game
